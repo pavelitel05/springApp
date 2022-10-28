@@ -1,0 +1,59 @@
+@import '../source/cssTemplates/null.scss';
+
+
+body{
+    max-height: 1080px;
+    max-width: 1920px;
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #7777;
+        width: 100%;
+        height: 100%;
+        .header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #9999;
+            height: 10%;
+            width: 90%;
+            .header__text{
+                font-size: large;
+                border: 2px solid black;
+            }
+            .header__links{
+                border: 2px solid red;
+            }
+            .header__icon{
+                border: 2px solid green;
+            }
+        }
+        .content{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            height: 80%;
+            width: 90%;
+            background-color: #AAFF;
+            .content__main{
+
+            }
+            .content__navbar{
+                border: 3px solid black;
+                height: 100%;
+                max-width: 30%;
+            }
+        }
+        .footer{
+            display: flex;
+            justify-content: flex-end;
+            height: 10%;
+            width: 90%;
+            background-color: #FFAA;
+            .footer__contactInfo{
+
+            }
+        }
+    }
+}
